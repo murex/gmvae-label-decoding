@@ -56,15 +56,10 @@ cd gmvae-label-decoding
 ### 2. Create environment
 
 ```bash
-python -m venv .venv  
-source .venv/bin/activate  
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-### 3. Install
-
-```bash
-pip install -e .
-```
 
 ### 3. Install dependencies
 
@@ -86,7 +81,7 @@ python main.py
 
 Outputs will be saved in:
 
- >outputs/runs/
+ > outputs/runs/
 
 ---
 
