@@ -98,6 +98,8 @@ Then open in your browser:
 `http://localhost:6006/`
 
 
+---
+
 ## Features
 
 ### Weak supervision
@@ -143,7 +145,7 @@ The pipeline automatically generates figures such as:
 
 All outputs are stored in:
 
-outputs/runs/
+> outputs/runs/
 
 ---
 
