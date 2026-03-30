@@ -123,22 +123,25 @@ Then open in your browser:
 
 ## Key concepts
 
-- **Hard decoding**: assign cluster → label deterministically  
-- **Soft decoding**: use posterior distribution over clusters  
-- **Label mapping**: learn correspondence between clusters and labels  
-- **GMVAE**: generative clustering model with latent mixture structure  
+- **Hard decoding**: assign each sample to a single cluster (via argmax), then map the cluster to a label  
+- **Soft decoding**: use the full posterior distribution over clusters to perform a weighted label prediction  
+- **Label mapping**: estimate the relationship between clusters and labels from a small labeled subset  
+- **GMVAE**: generative clustering model with a latent mixture structure  
 
 ---
 
 ## 📁 Outputs
 
 The pipeline automatically generates figures such as:
-- Figures 1, 2, 3 from the article
-- latent_space_pca.png  
-- latent_space_umap.png  
-- component_purity_and_weight.png  
 
-Stored in:
+- Figures 1, 2, and 3 from the article
+- Additional visualizations:
+  - PCA projection of the GMVAE latent space
+  - UMAP projection of the latent space
+  - t-SNE projection of the latent space
+  - Component purity and weight plots
+
+All outputs are stored in:
 
 outputs/runs/
 
