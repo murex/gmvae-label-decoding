@@ -13,7 +13,7 @@ A research-oriented framework for studying **weak supervision**, **label mapping
 
 This repository accompanies the following article:
 
-👉 [Link to TDS article]
+👉 [Link to the article]
 
 The article is licensed under **CC BY 4.0**.
 
