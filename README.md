@@ -3,7 +3,7 @@ Copyright 2026 MUREX S.A.S. and Université Paris Dauphine - PSL
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Weak Supervision Labeling
+# GMVAE Label Decoding
 
 A research-oriented framework for studying **weak supervision**, **label mapping**, and **generative clustering (GMVAE)**, with a strong emphasis on **analysis, robustness, and visualization**.
 
@@ -22,7 +22,7 @@ The article is licensed under **CC BY 4.0**.
 > **Disclaimer**  
 > The code provided in this article is intended for **research and reproducibility purposes only**.  
 > It is currently tailored to the MNIST and EMNIST datasets, and is not designed as a general-purpose framework.  
-> Extending it to other datasets require adaptations (data preprocessing, architecture tuning, and hyperparameter selection).
+> Extending it to other datasets requires adaptations (data preprocessing, architecture tuning, and hyperparameter selection).
 
 ---
 
