@@ -11,10 +11,10 @@ if __name__ == "__main__":
     seed = 0
 
     # number of training epochs
-    n_epochs = 100
+    n_epochs = 450
 
     # dataset
-    dataset = "mnist" # available: "mnist", "emnist"
+    dataset = "emnist" # available: "mnist", "emnist"
 
     # fraction of labeled data (between 0 and 1)
     label_map_frac_eval = 0.002

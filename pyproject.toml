@@ -19,6 +19,7 @@ dependencies = [
     "scikit-learn",
     "tqdm",
     "tensorboardX",
+    "xgboost",
 ]
 
 [tool.setuptools.packages.find]

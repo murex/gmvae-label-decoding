@@ -19,6 +19,13 @@ The article is licensed under **CC BY 4.0**.
 
 ---
 
+> **Disclaimer**  
+> The code provided in this article is intended for **research and reproducibility purposes only**.  
+> It is currently tailored to the MNIST and EMNIST datasets, and is not designed as a general-purpose framework.  
+> Extending it to other datasets require adaptations (data preprocessing, architecture tuning, and hyperparameter selection).
+
+---
+
 ## Overview
 
 This work is motivated by the observation that generative models can discover meaningful structure without labels, raising a fundamental question:
