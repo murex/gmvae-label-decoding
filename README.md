@@ -13,7 +13,7 @@ A research-oriented framework for studying **weak supervision**, **label mapping
 
 This repository accompanies the following article:
 
-👉 [Link to the article]
+👉 https://towardsdatascience.com/you-dont-need-many-labels-to-learn/
 
 The article is licensed under **CC BY 4.0**.
 
